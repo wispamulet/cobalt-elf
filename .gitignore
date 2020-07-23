@@ -1,0 +1,6 @@
+# 🙂
+.DS_Store
+node_modules/
+haters
+.vscode/
+__test__/

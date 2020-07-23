@@ -1,0 +1,26 @@
+{
+  "name": "cobalt-elf",
+  "displayName": "Cobalt-Elf",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt Night Elf",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cobalt-night-elf-color-theme.json"
+      },
+      {
+        "label": "Cobalt Dark Elf",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cobalt-dark-elf-color-theme.json"
+      }
+    ]
+  }
+}

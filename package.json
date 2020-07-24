@@ -21,6 +21,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/cobalt-dark-elf-color-theme.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "cobalt-elf-icons",
+        "label": "Cobalt Elf Icons",
+        "path": "./icon-themes/cobalt-elf-icon-theme.json"
+      }
     ]
   }
 }

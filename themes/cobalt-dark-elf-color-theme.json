@@ -1,0 +1,715 @@
+{
+  "name": "Cobalt Elf",
+  "type": "dark",
+  "colors": {
+    // @Check https://code.visualstudio.com/api/references/theme-color
+
+    /* Base Color
+			 - Basic colors */
+    "descriptionForeground": "#aaa",
+    "errorForeground": "#A22929",
+    "focusBorder": "#1A1C23",
+    "foreground": "#aaa",
+    // "icon.foreground": "#ffc600",
+    "selection.background": "#6C6F9380",
+    "widget.shadow": "#00000026",
+    /* Window border
+			 - The theme colors for VS Code window border. */
+    // "window.activeBorder": "#ffc600",
+    // "window.inactiveBorder": "#ff0000",
+    /* Text Colors
+			 - Colors inside a text document, such as the welcome page */
+    "textBlockQuote.background": "#193549",
+    "textBlockQuote.border": "#0088ff",
+    "textCodeBlock.background": "#193549",
+    "textLink.activeForeground": "#0088ff",
+    "textLink.foreground": "#0088ff",
+    "textPreformat.foreground": "#ffc600",
+    "textSeparator.foreground": "#0d3a58",
+    /* Button Control
+			 - A set of colors for button widgets
+			   such as Open Folder button in the Explorer of a new window. */
+    "button.background": "#0088ff",
+    "button.foreground": "#fff",
+    "button.hoverBackground": "#ff9d00",
+    /* Dropdown control
+			 - A set of colors for all Dropdown widgets
+				 such as in the Integrated Terminal or the Output panel. */
+    "dropdown.background": "#232530",
+    "dropdown.border": "#15232d",
+    "dropdown.foreground": "#fff",
+    /* Input control
+			 - Colors for input controls such as in the Search view or the Find/Replace dialog. */
+    "input.background": "#2E303E",
+    // "input.border": "#0d3a58",
+    "input.foreground": "#ffc600",
+    "input.placeholderForeground": "#aaa",
+    "inputOption.activeBorder": "#8dffff",
+    "inputValidation.errorBackground": "#193549",
+    "inputValidation.errorBorder": "#ffc600",
+    "inputValidation.infoBackground": "#193549",
+    "inputValidation.infoBorder": "#0D3A58",
+    "inputValidation.warningBackground": "#193549",
+    "inputValidation.warningBorder": "#ffc600",
+    /* Scrollbar control
+			 - Colors for scroll bar */
+    "scrollbar.shadow": "#16161C",
+    "scrollbarSlider.activeBackground": "#6C6F9380",
+    "scrollbarSlider.background": "#6C6F931A",
+    "scrollbarSlider.hoverBackground": "#6C6F934D",
+    /* Badge
+			 - Badges are small information labels, for example, search results count. */
+    "badge.background": "#ffc600",
+    "badge.foreground": "#000",
+    /* Progress bar
+			 - Colors for progress bar */
+    "progressBar.background": "#ffc600",
+    /* Lists and trees
+			 - Colors for list and trees like the File Explorer.
+					An active list/tree has keyboard focus, an inactive does not. */
+    "list.activeSelectionBackground": "#2E303E80",
+    "list.activeSelectionForeground": "#D5D8DA",
+    "list.dropBackground": "#6C6F9380",
+    "list.focusBackground": "#2E303E80",
+    "list.focusForeground": "#D5D8DA",
+    "list.highlightForeground": "#ffc600",
+    "list.hoverBackground": "#2E303E80",
+    "list.hoverForeground": "#D5D8DA",
+    "list.inactiveSelectionBackground": "#2E303E4D",
+    "list.inactiveSelectionForeground": "#D5D8DA",
+    /* Activity Bar
+			 - The Activity Bar is displayed either on the far left or right of the workbench
+				 and allows fast switching between views of the Side Bar. */
+    "activityBar.background": "#1c1e26",
+    // "activityBar.dropBackground": "#0d3a58",
+    "activityBar.foreground": "#ffc600",
+    "activityBar.inactiveForeground": "#707d87",
+    // "activityBar.border": "#0d3a58",
+    "activityBarBadge.background": "#ffc600",
+    "activityBarBadge.foreground": "#000",
+    "activityBar.activeBorder": "#ffc600",
+    "activityBar.activeFocusBorder": "#ffc600",
+    /* Side Bar
+			 - The Side Bar contains views like the Explorer and Search. */
+    "sideBar.background": "#1C1E26",
+    // "sideBar.border": "#0d3a58",
+    "sideBar.foreground": "#D5D8DA80",
+    "sideBarSectionHeader.background": "#1C1E26",
+    "sideBarSectionHeader.foreground": "#aaa",
+    "sideBarTitle.foreground": "#aaa",
+    /* Minimap
+			 - The Minimap shows a minified version of the current file. */
+    // Sry I don't use minimap
+    /* Editor Groups & Tabs
+			- Editor Groups are the containers of editors.
+			- A Tab is the container of an editor */
+    // "editorGroup.background": "#A22929",
+    "editorGroup.border": "#122738",
+    "editorGroup.dropBackground": "#12273899",
+    "editorGroupHeader.noTabsBackground": "#ff0000",
+    "editorGroupHeader.tabsBackground": "#1c1e26",
+    "editorGroupHeader.tabsBorder": "#15232d",
+    "tab.activeBackground": "#1c1e26",
+    "tab.activeForeground": "#fff",
+    "tab.border": "#15232D",
+    "tab.activeBorder": "#ffc600",
+    "tab.inactiveBackground": "#1c1e26",
+    "tab.inactiveForeground": "#aaa",
+    "tab.unfocusedActiveForeground": "#aaa",
+    "tab.unfocusedInactiveForeground": "#aaa",
+    /* Editor colors
+			 - The most prominent editor colors are the token colors used for syntax highlighting
+					and are based on the language grammar installed. */
+    "editor.background": "#1c1e26",
+    "editor.foreground": "#fff",
+    "editor.findMatchBackground": "#FF7200",
+    "editor.findMatchHighlightBackground": "#CAD40F66",
+    "editor.findRangeHighlightBackground": "#6C6F931A",
+    "editor.hoverHighlightBackground": "#ffc60033",
+    "editor.inactiveSelectionBackground": "#193549",
+    "editor.lineHighlightBackground": "#2E303E4D",
+    // "editor.lineHighlightBorder": "#2E303E80",
+    "editor.rangeHighlightBackground": "#2E303E80",
+    "editor.selectionBackground": "#2E303EB3",
+    "editor.selectionHighlightBackground": "#6C6F934D",
+    "editor.wordHighlightStrongBackground": "#FFFFFF0D",
+    "editor.wordHighlightBackground": "#FFFFFF0D",
+    "editorBracketMatch.background": "#0d3a58",
+    "editorBracketMatch.border": "#ffc60080",
+    "editorCodeLens.foreground": "#aaa",
+    "editorCursor.foreground": "#ffc600",
+    "editorError.border": "#0d3a58",
+    "editorError.foreground": "#A22929",
+    // "editorGutter.background": "#12273866",
+    "editorGutter.addedBackground": "#3C9F4A",
+    "editorGutter.deletedBackground": "#A22929",
+    "editorGutter.modifiedBackground": "#26506D",
+    "editorIndentGuide.background": "#2E303E80",
+    "editorLineNumber.foreground": "#D5D8DA80",
+    "editorLink.activeForeground": "#aaa",
+    "editorRuler.foreground": "#6C6F934D",
+    "editorWarning.border": "#ffffff00",
+    "editorWarning.foreground": "#ffc600",
+    "editorWhitespace.foreground": "#ffffff1a",
+    /* Diff editor colors
+			 - For coloring inserted and removed text,
+					use either a background or a border color but not both. */
+    "diffEditor.insertedTextBackground": "#3ad90011",
+    "diffEditor.insertedTextBorder": "#3ad90055",
+    "diffEditor.removedTextBackground": "#ee3a4311",
+    "diffEditor.removedTextBorder": "#ee3a4355",
+    /* Editor widget colors
+			 - The Editor widget is shown in front of the editor content.
+			 	 Examples are the Find/Replace dialog, the suggestion widget, and the editor hover. */
+    "editorWidget.background": "#232530",
+    "editorWidget.border": "#232530",
+    "editorSuggestWidget.background": "#15232d",
+    "editorSuggestWidget.border": "#15232d",
+    "editorSuggestWidget.foreground": "#aaa",
+    "editorSuggestWidget.highlightForeground": "#ffc600",
+    "editorSuggestWidget.selectedBackground": "#193549",
+    "editorHoverWidget.background": "#15232d",
+    "editorHoverWidget.border": "#0d3a58",
+    "debugExceptionWidget.background": "#193549",
+    "debugExceptionWidget.border": "#aaa",
+    "editorMarkerNavigation.background": "#3B536433",
+    "editorMarkerNavigationError.background": "#A22929",
+    "editorMarkerNavigationWarning.background": "#ffc600",
+    /* Peek view colors
+			 - Peek views are used to show references and declarations as a view inside the editor. */
+    "peekView.border": "#ffc600",
+    "peekViewEditor.background": "#232530",
+    "peekViewEditor.matchHighlightBackground": "#19354900",
+    // "peekViewEditorGutter.background": "#122738",
+    "peekViewResult.background": "#232530",
+    "peekViewResult.fileForeground": "#aaa",
+    "peekViewResult.lineForeground": "#fff",
+    "peekViewResult.matchHighlightBackground": "#0d3a58",
+    "peekViewResult.selectionBackground": "#0d3a58",
+    "peekViewResult.selectionForeground": "#fff",
+    "peekViewTitle.background": "#15232d",
+    "peekViewTitleDescription.foreground": "#aaa",
+    "peekViewTitleLabel.foreground": "#ffc600",
+    /* Merge conflicts colors
+			 - Merge conflict decorations are shown when the editor contains special diff ranges. */
+    "merge.border": "#ffffff00",
+    "merge.commonContentBackground": "#ffffff00",
+    "merge.commonHeaderBackground": "#ffffff00",
+    "merge.currentContentBackground": "#ffffff00",
+    "merge.currentHeaderBackground": "#ffffff00",
+    "merge.incomingContentBackground": "#ffffff00",
+    "merge.incomingHeaderBackground": "#ffffff00",
+    "editorOverviewRuler.border": "#2E303EB3",
+    "editorOverviewRuler.commonContentForeground": "#ffc60055",
+    "editorOverviewRuler.currentContentForeground": "#ee3a4355",
+    "editorOverviewRuler.incomingContentForeground": "#3ad90055",
+    /* Panel colors
+			 - Panels are shown below the editor area and contain views like Output and Integrated Terminal. */
+    // "panel.background": "#122738",
+    "panel.border": "#ffc600",
+    "panelTitle.activeBorder": "#ffc600",
+    "panelTitle.activeForeground": "#ffc600",
+    "panelTitle.inactiveForeground": "#aaa",
+    /* Preview colors */
+    // "imagePreview.border": "#ff0000",
+    /* Status Bar colors
+			 - The Status Bar is shown in the bottom of the workbench. */
+    "statusBar.background": "#1C1E26",
+    // "statusBar.border": "#0d3a58",
+    "statusBar.debuggingBackground": "#15232d",
+    "statusBar.debuggingForeground": "#0d3a58",
+    "statusBar.foreground": "#aaa",
+    "statusBar.noFolderBackground": "#15232d",
+    "statusBar.noFolderForeground": "#aaa",
+    "statusBarItem.activeBackground": "#0088ff",
+    "statusBarItem.hoverBackground": "#0d3a58",
+    "statusBarItem.prominentBackground": "#15232d",
+    "statusBarItem.prominentHoverBackground": "#0d3a58",
+    /* Title Bar colors */
+    "titleBar.activeBackground": "#1c1e26",
+    "titleBar.inactiveBackground": "#1c1e26",
+    // "titleBar.activeForeground": "#ffffff",
+    // "titleBar.inactiveForeground": "#ffffff33",
+    /* Menu Bar colors */
+    /* Notification colors */
+    /* Extensions colors */
+    "extensionButton.prominentBackground": "#0088ff",
+    "extensionButton.prominentForeground": "#fff",
+    "extensionButton.prominentHoverBackground": "#ff9d00",
+    /* Quick picker colors */
+    "pickerGroup.border": "#0d3a58",
+    "pickerGroup.foreground": "#aaa",
+    /* Integrated Terminal colors */
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#ff628c",
+    "terminal.ansiGreen": "#3ad900",
+    "terminal.ansiYellow": "#ffc600",
+    "terminal.ansiBlue": "#0088ff",
+    "terminal.ansiMagenta": "#fb94ff",
+    "terminal.ansiCyan": "#80fcff",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiBrightBlack": "#0050A4",
+    "terminal.ansiBrightRed": "#ff628c",
+    "terminal.ansiBrightGreen": "#3ad900",
+    "terminal.ansiBrightYellow": "#ffc600",
+    "terminal.ansiBrightBlue": "#0088ff",
+    "terminal.ansiBrightMagenta": "#fb94ff",
+    "terminal.ansiBrightCyan": "#80fcff",
+    "terminal.ansiBrightWhite": "#193549",
+    // "terminal.background": "#122738",
+    "terminal.foreground": "#ffffff",
+    "terminalCursor.background": "#ffc600",
+    "terminalCursor.foreground": "#ffc600",
+    /* Debug colors
+			 - For debug session */
+    "debugToolBar.background": "#1C1E26",
+    /* Welcome page colors */
+    // "welcomePage.buttonBackground": "#193549",
+    "welcomePage.buttonHoverBackground": "#0d3a58",
+    "walkThrough.embeddedEditorBackground": "#0d3a58",
+    /* Source Control colors */
+    /* Git colors */
+    "gitDecoration.modifiedResourceForeground": "#ffc600",
+    "gitDecoration.deletedResourceForeground": "#ff628c",
+    "gitDecoration.untrackedResourceForeground": "#3ad900",
+    "gitDecoration.ignoredResourceForeground": "#ff628c",
+    "gitDecoration.conflictingResourceForeground": "#FF7200"
+    /* Settings Editor colors */
+    /* Breadcrumbs colors */
+    /* Snippets colors */
+    /* Symbol Icons colors */
+    /* Debug Icons colors */
+    /* Notebook colors */
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#0088ff"
+      }
+    },
+    {
+      "name": "Constant, Escape Characters",
+      "scope": ["constant", "constant.character.escape"],
+      "settings": {
+        "foreground": "#ff628c"
+      }
+    },
+    {
+      "name": "Entity, Storage Type Arrow Function",
+      "scope": ["entity", "storage.type.function.arrow"],
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#f44542"
+      }
+    },
+    {
+      "name": "Keyword, Storage, Support Function",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#ff9d00"
+      }
+    },
+    {
+      "name": "Meta Brace, Punctuation, Support Variable Property DOM, Variables",
+      "scope": [
+        "meta.brace",
+        "punctuation, support.variable.property.dom",
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "Punctuation Parameters, Punctuation Template Expression",
+      "scope": [
+        "punctuation.definition.parameters",
+        "punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#ffee80"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#a5ff90"
+      }
+    },
+    {
+      "name": "String Template",
+      "scope": ["string.template", "punctuation.definition.string.template"],
+      "settings": {
+        "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "#80ffbb"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": ["*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "[Regular Expressions] - Group, Character Class",
+      "scope": [
+        "meta.group.regexp",
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.character-class.regexp"
+      ],
+      "settings": {
+        "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Heading Punctuation",
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Heading Name Section",
+      "scope": [
+        "entity.name.section.markdown",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.setext.2.markdown"
+      ],
+      "settings": {
+        "foreground": "#ffc600",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Quote Punctuation",
+      "scope": "beginning.punctuation.definition.quote.markdown",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Quote Paragraph",
+      "scope": "markup.quote.markdown meta.paragraph.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Separator",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Emphasis Bold",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Emphasis Italic",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Lists",
+      "scope": "beginning.punctuation.definition.list.markdown",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Link Title",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#a5ff90"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Link/Image Title",
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown",
+        "string.other.link.description.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#a5ff90"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Link Address",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Inline Code",
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[MARKDOWN] - Code Block",
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[HTML] - Text",
+      "scope": ["text.html.derivative"],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
+      "name": "[HTML] - Tag",
+      "scope": ["entity.name.tag.html"],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[HTML] - Attribute Name",
+      "scope": ["entity.other.attribute-name.html"],
+      "settings": {
+        "foreground": "#ffc600",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[HTML] - Punctuation Definition Tag",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#6c6783"
+      }
+    },
+    {
+      "name": "[CSS] - Selector",
+      "scope": [
+        "meta.selector.css",
+        "entity.name.tag.css",
+        "entity.name.tag.wildcard.css",
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[CSS] - Constant, Property Value",
+      "scope": [
+        "source.css constant",
+        "source.css support.constant",
+        "meta.property-value.css",
+        "string.quoted.single.css"
+      ],
+      "settings": {
+        "foreground": "#ffee80",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[CSS] - CSS Function",
+      "scope": ["support.function.misc.css"],
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "name": "[CSS] - Property Name",
+      "scope": [
+        "source.css support.type.property-name",
+        "source.css support.type.vendored.property-name"
+      ],
+      "settings": {
+        "foreground": "#9b87fd"
+      }
+    },
+    {
+      "name": "[CSS] - CSS Variable, CSS Argument, Pseudo Class, Pseudo Element",
+      "scope": [
+        "variable.css",
+        "variable.argument.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#6a51e6"
+      }
+    },
+    {
+      "name": "[CSS] - Curly Brackets, `:` && `::`, comment",
+      "scope": [
+        "punctuation.section.property-list.begin.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css",
+        "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+        "source.css comment",
+        "source.css punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#6c6783"
+      }
+    },
+    // {
+    //   "name": "Decorators",
+    //   "scope": [
+    //     "tag.decorator.js entity.name.tag.js",
+    //     "tag.decorator.js punctuation.definition.tag.js"
+    //   ],
+    //   "settings": {
+    //     "fontStyle": "italic",
+    //     "foreground": "#82AAFF"
+    //   }
+    // },
+    // {
+    //   "name": "ES7 Bind Operator",
+    //   "scope": [
+    //     "source.js constant.other.object.key.js string.unquoted.label.js"
+    //   ],
+    //   "settings": {
+    //     "fontStyle": "italic",
+    //     "foreground": "#FF5370"
+    //   }
+    // },
+    {
+      "name": "[JS & TS] - Keyword `new` `super` `this`",
+      "scope": [
+        "keyword.operator.new",
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#fb94ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[JS & TS] - Entity Name Type",
+      "scope": ["entity.name.type", "entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#80ffbb"
+      }
+    },
+    {
+      "name": "[JSX] - Tag",
+      "scope": ["entity.name.tag.js", "entity.name.tag.tsx"],
+      "settings": {
+        "foreground": "#9effff"
+      }
+    },
+    {
+      "name": "[JSX] - Punctuation Definition Tag",
+      "scope": [
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#6c6783"
+      }
+    },
+    {
+      "name": "[JSX] - Attribute Name",
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#ffc600",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[TS] - Type Annotation, Function Return Type",
+      "scope": [
+        "meta.type.annotation.ts",
+        "meta.return.type.ts",
+        "meta.return.type.arrow.ts",
+        "meta.type.annotation.tsx",
+        "meta.return.type.tsx",
+        "meta.return.type.arrow.tsx"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[TS] - Revert font style to normal",
+      "scope": [
+        "string.quoted.single.ts",
+        "keyword.operator.type.annotation.ts",
+        "string.quoted.single.tsx",
+        "keyword.operator.type.annotation.tsx"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "[JSON] - String",
+      "scope": [
+        "source.json string",
+        "source.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "[JSON] - Support",
+      "scope": "source.json support",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    }
+  ]
+}

@@ -327,6 +327,8 @@
       "name": "Meta Brace, Punctuation, Support Variable Property DOM, Variables",
       "scope": [
         "meta.brace",
+        "punctuation.decorator",
+        "variable.other.readwrite",
         "punctuation, support.variable.property.dom",
         "variable",
         "string constant.other.placeholder"

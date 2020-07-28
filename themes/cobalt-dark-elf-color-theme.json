@@ -19,18 +19,18 @@
     // "window.inactiveBorder": "#ff0000",
     /* Text Colors
 			 - Colors inside a text document, such as the welcome page */
-    "textBlockQuote.background": "#193549",
-    "textBlockQuote.border": "#0088ff",
-    "textCodeBlock.background": "#193549",
-    "textLink.activeForeground": "#0088ff",
-    "textLink.foreground": "#0088ff",
+    // "textBlockQuote.background": "#193549",
+    // "textBlockQuote.border": "#0088ff",
+    // "textCodeBlock.background": "#193549",
+    "textLink.activeForeground": "#ffc600",
+    "textLink.foreground": "#ffc600",
     "textPreformat.foreground": "#ffc600",
     "textSeparator.foreground": "#0d3a58",
     /* Button Control
 			 - A set of colors for button widgets
 			   such as Open Folder button in the Explorer of a new window. */
-    "button.background": "#0088ff",
-    "button.foreground": "#fff",
+    "button.background": "#ffc600",
+    "button.foreground": "#000",
     "button.hoverBackground": "#ff9d00",
     /* Dropdown control
 			 - A set of colors for all Dropdown widgets
@@ -130,8 +130,8 @@
     "editor.lineHighlightBackground": "#2E303E4D",
     // "editor.lineHighlightBorder": "#2E303E80",
     "editor.rangeHighlightBackground": "#2E303E80",
-    "editor.selectionBackground": "#2E303EB3",
-    "editor.selectionHighlightBackground": "#6C6F934D",
+    "editor.selectionBackground": "#0050A4",
+    "editor.selectionHighlightBackground": "#0050A480",
     "editor.wordHighlightStrongBackground": "#FFFFFF0D",
     "editor.wordHighlightBackground": "#FFFFFF0D",
     "editorBracketMatch.background": "#0d3a58",
@@ -168,8 +168,8 @@
     "editorSuggestWidget.foreground": "#aaa",
     "editorSuggestWidget.highlightForeground": "#ffc600",
     "editorSuggestWidget.selectedBackground": "#193549",
-    "editorHoverWidget.background": "#15232d",
-    "editorHoverWidget.border": "#0d3a58",
+    // "editorHoverWidget.background": "#15232d",
+    "editorHoverWidget.border": "#15232d",
     "debugExceptionWidget.background": "#193549",
     "debugExceptionWidget.border": "#aaa",
     "editorMarkerNavigation.background": "#3B536433",
@@ -205,7 +205,7 @@
     "editorOverviewRuler.incomingContentForeground": "#3ad90055",
     /* Panel colors
 			 - Panels are shown below the editor area and contain views like Output and Integrated Terminal. */
-    // "panel.background": "#122738",
+    "panel.background": "#1C1E26",
     "panel.border": "#ffc600",
     "panelTitle.activeBorder": "#ffc600",
     "panelTitle.activeForeground": "#ffc600",
@@ -216,15 +216,15 @@
 			 - The Status Bar is shown in the bottom of the workbench. */
     "statusBar.background": "#1C1E26",
     // "statusBar.border": "#0d3a58",
-    "statusBar.debuggingBackground": "#15232d",
-    "statusBar.debuggingForeground": "#0d3a58",
-    "statusBar.foreground": "#aaa",
-    "statusBar.noFolderBackground": "#15232d",
-    "statusBar.noFolderForeground": "#aaa",
-    "statusBarItem.activeBackground": "#0088ff",
-    "statusBarItem.hoverBackground": "#0d3a58",
-    "statusBarItem.prominentBackground": "#15232d",
-    "statusBarItem.prominentHoverBackground": "#0d3a58",
+    "statusBar.debuggingBackground": "#ff9d00",
+    "statusBar.debuggingForeground": "#06060C",
+    "statusBar.foreground": "#D5D8DA80",
+    "statusBar.noFolderBackground": "#1C1E26",
+    // "statusBar.noFolderForeground": "#aaa",
+    "statusBarItem.activeBackground": "#ff9d00",
+    // "statusBarItem.hoverBackground": "#2E303E",
+    "statusBarItem.prominentBackground": "#ffc600",
+    "statusBarItem.prominentHoverBackground": "#6C6F93",
     /* Title Bar colors */
     "titleBar.activeBackground": "#1c1e26",
     "titleBar.inactiveBackground": "#1c1e26",
@@ -233,7 +233,7 @@
     /* Menu Bar colors */
     /* Notification colors */
     /* Extensions colors */
-    "extensionButton.prominentBackground": "#0088ff",
+    "extensionButton.prominentBackground": "#ffc600",
     "extensionButton.prominentForeground": "#fff",
     "extensionButton.prominentHoverBackground": "#ff9d00",
     /* Quick picker colors */
@@ -265,8 +265,8 @@
     "debugToolBar.background": "#1C1E26",
     /* Welcome page colors */
     // "welcomePage.buttonBackground": "#193549",
-    "welcomePage.buttonHoverBackground": "#0d3a58",
-    "walkThrough.embeddedEditorBackground": "#0d3a58",
+    "welcomePage.buttonHoverBackground": "#232530",
+    "walkThrough.embeddedEditorBackground": "#232530",
     /* Source Control colors */
     /* Git colors */
     "gitDecoration.modifiedResourceForeground": "#ffc600",
@@ -327,6 +327,8 @@
       "name": "Meta Brace, Punctuation, Support Variable Property DOM, Variables",
       "scope": [
         "meta.brace",
+        "punctuation.decorator",
+        "variable.other.readwrite",
         "punctuation, support.variable.property.dom",
         "variable",
         "string constant.other.placeholder"
@@ -598,27 +600,6 @@
         "foreground": "#6c6783"
       }
     },
-    // {
-    //   "name": "Decorators",
-    //   "scope": [
-    //     "tag.decorator.js entity.name.tag.js",
-    //     "tag.decorator.js punctuation.definition.tag.js"
-    //   ],
-    //   "settings": {
-    //     "fontStyle": "italic",
-    //     "foreground": "#82AAFF"
-    //   }
-    // },
-    // {
-    //   "name": "ES7 Bind Operator",
-    //   "scope": [
-    //     "source.js constant.other.object.key.js string.unquoted.label.js"
-    //   ],
-    //   "settings": {
-    //     "fontStyle": "italic",
-    //     "foreground": "#FF5370"
-    //   }
-    // },
     {
       "name": "[JS & TS] - Keyword `new` `super` `this`",
       "scope": [

@@ -42,17 +42,17 @@ So I made this, it's more like a combination instead of a brand new theme with m
 
 ## what exactly I've done?
 
-There are two color themes, one is called **Cobalt Night Elf**, the other is **Cobalt Dark Elf**.
+1. There are two color themes, one is called **Cobalt Night Elf**, the other is **Cobalt Dark Elf**.
 
-The syntax highlighting are mainly from [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) but I changed a little bit, mostly for `TypeScript` and `CSS`. Basically **Cobalt Night Elf** is the same as [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) with a slightly different syntax highlighting.
+   The syntax highlighting are mainly from [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) but I changed a little bit, mostly for `TypeScript` and `CSS`. Basically **Cobalt Night Elf** is the same as [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) with a slightly different syntax highlighting.
 
-**Cobalt Dark Elf** has the same syntax ing colors but with dark background. I've always want to use a black and orange theme and I found this [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode). It looks really good but I prefer orange than pink. So the UI colors are from it.
+   **Cobalt Dark Elf** has the same syntax highlighting colors but with dark background. I've always want to use a black and orange theme and I found this [Horizon Theme](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode). It looks really good but I prefer orange than red and pink. So the UI colors mostly are from it.
 
-There's also a icon theme from [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode), you can find it by choosing `File -> Preference -> File Icon Theme -> Cobalt Elf`.
+2. There's also a icon theme from [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode), you can find it by choosing `File -> Preference -> File Icon Theme -> Cobalt Elf`.
 
-**Notice**: [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) is not a free theme although you can use it without a license. If you really like it, please buy a license and support their work.
+   **Notice**: [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) is not a free theme although you can use it without a license. If you really like it, please buy a license and support their work.
 
-These themes are really fantastic, choose what you want!
+_You can use those themes as well, choose what you want!_
 
 ## how to use
 
@@ -79,7 +79,7 @@ Here it seems like to say, I want my comment to be this kind of color and italic
 
 These things are called `textMate` scopes, it's kind of a specification to define which part belongs to what exactly thing in a language. I didn't find an official documentation of them, maybe it just don't exist. But don't worry, you don't need to become a language master to use them.
 
-In VSCode, there is a really useful trick to help you understand and use these scopes, press `F1` or `ctrl+shift+p`, choose `Developer: Inspect Editor Tokens and Scopes`, it will show all the information with foreground color, background color, textMate scopes and other infos at what your cursor currently is (if it's in the editor).
+In VSCode, there is a really useful trick to help you understand and use these scopes, press `F1` or `ctrl+shift+p`, choose `Developer: Inspect Editor Tokens and Scopes`, it will show all the information with foreground color, background color, textMate scopes and other infos at where your cursor currently is (if it's in the editor).
 
 So if you really want to know how to make variables or entitys or brackets or everything else to a different color, just inspect them and add your own rules.
 
@@ -87,16 +87,16 @@ So if you really want to know how to make variables or entitys or brackets or ev
 
 Add images.
 
-Add more icons. It's available to use icons with `.svg` files or `.woff` files. Here they're all defined in one `.woff` file. For now, I'm using [FontForge](https://fontforge.org/en-US/) to edit fonts, I'm still learning to use it. Hopefully I will add more icons.
+Add more icons. It's available to use icons with `.svg` files or `.woff` files. Here they're all located in one `.woff` file. For now, I'm using [FontForge](https://fontforge.org/en-US/) to edit fonts, I'm still learning to use it. Hopefully I will add more icons.
 
 ## links
 
-[Learn how to make a VSCode color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
+[VSCode color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
 
-[Learn how to make a VSCode file icon theme](https://code.visualstudio.com/api/extension-guides/file-icon-theme)
+[VSCode file icon theme](https://code.visualstudio.com/api/extension-guides/file-icon-theme)
 
-[Learn more about VSCode color formats](https://code.visualstudio.com/api/references/theme-color#color-formats)
+[VSCode color formats](https://code.visualstudio.com/api/references/theme-color#color-formats)
 
-[Learn more about textMate scopes](https://macromates.com/manual/en/language_grammars#naming_conventions) and [this](https://www.sublimetext.com/docs/3/scope_naming.html)
+TextMate scope [link](https://macromates.com/manual/en/language_grammars#naming_conventions) and [another link](https://www.sublimetext.com/docs/3/scope_naming.html)
 
 [FontForge](https://fontforge.org/en-US/)
